@@ -1,0 +1,21 @@
+.header{
+    background-color: #f9f9f9;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem; 
+    align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+    .header{
+        padding: 0 5rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header{
+        padding: 0 1rem;
+    }
+}

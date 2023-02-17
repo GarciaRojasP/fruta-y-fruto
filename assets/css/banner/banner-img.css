@@ -1,0 +1,23 @@
+.banner__img{
+    width: 100%;
+    height: calc(100vh - 76px);
+    background: url('../../img/banner.png') no-repeat center/cover fixed;
+    /*
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position: center;
+    */
+}
+
+@media screen and (max-width: 780px) {
+    .banner__img{
+        height: calc(100vh - 20vh);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner__img{
+        height: calc(100vh - 30px);
+    }
+}

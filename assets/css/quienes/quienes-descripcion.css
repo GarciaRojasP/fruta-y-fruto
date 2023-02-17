@@ -1,0 +1,11 @@
+.quienes__descripcion{
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 780px) {
+    .quienes__descripcion{
+        font-size: 1.3rem;
+    }
+}

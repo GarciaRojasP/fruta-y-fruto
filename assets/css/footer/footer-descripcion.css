@@ -1,0 +1,27 @@
+.footer__descripcion{
+    display: flex;
+    font-size: 2rem;
+    margin-left: 5rem;
+    color: #8c8888;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__descripcion{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .footer__descripcion{
+        font-size: 1.5rem;
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__descripcion{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+    
+}

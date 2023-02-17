@@ -1,0 +1,10 @@
+.receta__titulo{
+    font-size: 1.4375rem;
+    height: 55px;
+}
+
+@media screen and (max-width: 780px) {
+    .receta__titulo{
+        font-size: 1.35rem;
+    }
+}

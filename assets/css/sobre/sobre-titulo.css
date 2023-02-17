@@ -1,0 +1,10 @@
+.sobre__titulo{
+    color: #da2b1f;
+    font-size: 3.1875rem;
+}
+
+@media screen and (max-width: 780px) {
+    .sobre__titulo{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,11 @@
+.nav__lista{
+    display: flex;
+}
+
+@media screen and (max-width: 320px) {
+    .nav__lista{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 25px;
+    }
+}

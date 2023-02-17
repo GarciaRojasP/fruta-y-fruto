@@ -1,0 +1,13 @@
+.receta__descripcion{
+    font-size: 1.1875rem;
+    line-height: 1.5rem;
+    height: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .quienes__descripcion{
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width:7800px) {
+    .footer__img{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footer__img{
+        width: 40%;
+    }
+}

@@ -1,0 +1,5 @@
+.footer__lista{
+    display: flex;
+    padding-left: 25px;
+    margin: 10px 0;
+}

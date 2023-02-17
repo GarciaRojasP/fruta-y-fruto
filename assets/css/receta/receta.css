@@ -1,0 +1,35 @@
+.receta{
+    width: 240px;
+    height: 450px;
+    margin: 0 5% 5% 0;
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e5e5a1;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px #00000087;
+    -webkit-border-radius: 3px 3px 20px #00000087;
+    -moz-border-radius: 3px 3px 20px #00000087;
+    -ms-border-radius: 3px 3px 20px #00000087;
+    -o-border-radius:3px 3px 20px #00000087;
+}
+
+@media screen and (max-width: 1024px) {
+    .receta{
+        margin: 0 60px 60px 0;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .receta{
+        margin: 0 50px 50px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .receta{
+        margin: 0 30px 30px 0;
+        width: 250px;
+    }
+}
